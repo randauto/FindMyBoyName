@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">FindMyBoyName</string>
+    <string name="app_name">Find My Boy</string>
     <string name="hello_world">Hello world!</string>
+    <string name="step_1">Enter your name:</string>
+    <string name="step_2">Enter name of boys, split by character ,</string>
+    <string name="not_enter_your_name">You have not enter your name!</string>
+    <string name="not_enter_name_of_boys">You have not enter name of boys</string>
 
 </resources>
