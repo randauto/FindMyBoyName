@@ -1,0 +1,16 @@
+﻿- Hướng dẫn javah file cần tạo Header.
+Vào CMD truy cập tới thư mục src của project.
+ví dụ:
+D:\JNITUTORIAL\JniTutorial\src>
+
+- Sau đó chạy lệnh sau: javah -jni com.vnc.jnitutorial.MainActivity
+Khi đó thì file Header .h sẽ được sinh ra
+
+*****************************
+Hướng dẫn build nhiều file source code vào trong một file library .so
+
+
+LOCAL_MODULE    := calculator
+LOCAL_SRC_FILES := calculator.c\
+					objectarraytest.c
+*****************************
